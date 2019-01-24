@@ -8,12 +8,12 @@ define('CURRENCY', 'aed');
 define('CHECKOUTMODE', 'TEST');//Change TEST to LIVE when ready to go live!
 
 if(CHECKOUTMODE == 'TEST'){
-  define('STRIPE_PRIVATE', 'sk_test_OdJSN8rDWstCANU7FsZ1Moq3');
-  define('STRIPE_PUBLIC', 'pk_test_HeZtE3T4J8RJlxDHr8GULkAk');
+  define('STRIPE_PRIVATE', '');
+  define('STRIPE_PUBLIC', '');
 }
 
 if(CHECKOUTMODE == 'LIVE'){
-  define('STRIPE_PRIVATE', 'sk_live_6urN8EP55AkM790B2k8cbaBF');
-  define('STRIPE_PUBLIC', 'pk_live_SQuJz7pOZFsFfNvNswHacbht');
+  define('STRIPE_PRIVATE', '');
+  define('STRIPE_PUBLIC', '');
 }
 ?>
